@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">braveTogether</string>
+    <string name="title_activity_manage_march">Manage_march</string>
 </resources>
