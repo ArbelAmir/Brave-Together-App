@@ -37,5 +37,9 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void openRecordVideoModule(View view) {
+        Intent intent = new Intent(this, RecordsActivity.class);
+        startActivity(intent);
     }
+
+
 }
