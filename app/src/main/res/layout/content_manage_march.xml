@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".Manage_march"
+    tools:context="com.example.bravetogether.Manage_march"
     tools:showIn="@layout/activity_manage_march">
 
 </android.support.constraint.ConstraintLayout>

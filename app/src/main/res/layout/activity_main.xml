@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.example.bravetogether.MainActivity">
 
     <Button
         android:id="@+id/about_button"
@@ -17,7 +17,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="20dp"
         android:onClick="openAboutPageModule"
-        android:text="About Mizad HaGvura"
+        android:text="@string/about_mizad_hagvura"
         app:layout_constraintBottom_toTopOf="@+id/manage_march_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -35,7 +35,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:onClick="openManageMarchModule"
-        android:text="Nihul Mizad"
+        android:text="@string/march_manager"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

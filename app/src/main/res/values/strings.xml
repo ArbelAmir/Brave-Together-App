@@ -1,4 +1,21 @@
 <resources>
     <string name="app_name">braveTogether</string>
-    <string name="title_activity_manage_march">Manage_march</string>
+    <string name="title_activity_manage_march" translatable="false">Manage_march</string>
+    <string name="video_explanation">Record three snippets to create your video</string>
+    <string name="record_first_video">Record the first video. The video should be about 30 seconds, and you should answer the question</string>
+    <string name="about_mizad_hagvura">About Mizad HaGvura</string>
+    <string name="video_instruction">Video Instruction</string>
+    <string name="singing_cord">Cordinating singing</string>
+    <string name="march_manager">March Manager</string>
+    <string name="song_lyrics">Song Lyrics</string>
+    <string name="video_instruction_text">Recording a video is a way to pass on the bravery and
+        courage that holocaust survivors showed during World War II. \n\n The video is built of
+        three parts, each one about 30 seconds long. In each section you will be asked to answer
+        the following questions: \n\n1. Tell us about a struggle you had during the holocaust.
+        \n2. What helped you overcome that struggle? \n3. What do you want the future generations
+        to remember? \n\nAfter recording each segment you have an option to view the recording and
+        create a new one if you aren’t satisfied with what you filmed. Once you record all three
+        pieces, they will be merged into one video that will be uploaded to the BraveTogether
+        YouTube channel. In addition, they’ll be an option for you to share the video with your
+        friends and family on FaceBook.</string>
 </resources>

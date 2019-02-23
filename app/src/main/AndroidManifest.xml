@@ -9,11 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Manage_march"
+
+        <activity
+            android:name="com.example.bravetogether.Manage_video_module"
+            android:label="Record Gvura Video"
+            android:parentActivityName="com.example.bravetogether.MainActivity" />
+
+
+        <activity
+            android:name="com.example.bravetogether.Manage_march"
             android:label="Manage March"
-            android:parentActivityName=".MainActivity">
-        </activity>
-        <activity android:name=".MainActivity">
+            android:parentActivityName="com.example.bravetogether.MainActivity"></activity>
+        <activity android:name="com.example.bravetogether.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
