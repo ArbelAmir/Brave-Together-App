@@ -10,4 +10,5 @@
     <string name="march_manager">March Manager</string>
     <string name="song_lyrics">מילים לשירים</string>
     <string name="video_instruction_text">Recording a video is a way to pass on the bravery and courage that holocaust survivors showed during World War II. The video is built of three parts, each one about 30 seconds long. In each section you will be asked to answer the following questions: 1. Tell us about a struggle you had during the holocaust. 2. What helped you overcome that struggle? 3. What do you want the future generations to remember? After recording each segment you have an option to view the recording and create a new one if you aren’t satisfied with what you filmed. Once you record all three pieces, they will be merged into one video that will be uploaded to the BraveTogether YouTube channel. In addition, they’ll be an option for you to share the video with your friends and family on FaceBook.</string>
+    <string name="instruction_next">Next</string>
 </resources>

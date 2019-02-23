@@ -3,7 +3,8 @@ package com.example.bravetogether;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.testing.app_mizad_hagvura.R;
+//import com.testing.app_mizad_hagvura.R;
+import com.testing.braveTogether.R;
 
 public class Manage_march extends AppCompatActivity {
 

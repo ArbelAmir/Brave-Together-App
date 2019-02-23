@@ -1,16 +1,15 @@
 package com.example.bravetogether;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.testing.app_mizad_hagvura.R;
+//import com.testing.app_mizad_hagvura.R;
+import com.testing.braveTogether.R;
 
 //import com.testing.app_mizad_hagvura.Manage_march;
 
-import com.testing.braveTogether.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void openRecordVideoModule(View view) {
-        Intent intent = new Intent(this, Manage_video_module.class);
+        Intent intent = new Intent(this, recordActivityInstructions.class);
         startActivity(intent);
 
     }
