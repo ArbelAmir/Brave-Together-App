@@ -13,10 +13,6 @@
             android:label="Manage March"
             android:parentActivityName=".MainActivity">
         </activity>
-        <activity android:name=".RecordsActivity"
-            android:label="Record activity"
-            android:parentActivityName=".MainActivity">
-        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
