@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Manage_march">
+    tools:context="com.example.bravetogether.Manage_march">
 
     <Button
         android:id="@+id/singing_cord_button"
@@ -15,7 +15,7 @@
         android:layout_marginTop="112dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="Tizmun Shira"
+        android:text="@string/singing_cord"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,26 +30,12 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="8dp"
-        android:text="Song Lyrics"
-        app:layout_constraintBottom_toTopOf="@+id/sign_up_to_march_button"
+        android:text="@string/song_lyrics"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/singing_cord_button"
-        app:layout_constraintVertical_bias="0.519" />
+        app:layout_constraintVertical_bias="0.13" />
 
-    <Button
-        android:id="@+id/sign_up_to_march_button"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="332dp"
-        android:text="Sign up to the march"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
