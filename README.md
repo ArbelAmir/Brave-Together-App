@@ -1,4 +1,4 @@
-# braveTogether
+# Brave Together App
 This Android app is currently under development.
 The application will be used by "brave together" project participants to create videos and conduct the parade.
 
