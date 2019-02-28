@@ -1,13 +1,9 @@
-package com.example.bravetogether;
+package com.testing.braveTogether;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-
-//import com.testing.app_mizad_hagvura.R;
-import com.testing.braveTogether.R;
-import com.testing.braveTogether.RecordsActivity;
 
 public class recordActivityInstructions extends AppCompatActivity {
 
