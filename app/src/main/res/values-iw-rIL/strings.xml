@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="title_activity_manage_march">ניהול המצעד</string>
     <string name="app_name">מצעד הגבורה</string>
     <string name="video_explanation">הקליטו את שלושת הסרטונים</string>
     <string name="record_first_video">הקליטו את הסרטון הראשון</string>
     <string name="about_mizad_hagvura">אודות מצעד הגבורה</string>
     <string name="video_instruction">הקלטת סרטון גבורה - הוראות</string>
     <string name="singing_cord">תיזמון שירה</string>
-    <string name="march_manager">March Manager</string>
+    <string name="march_manager">ניהול המצעד</string>
     <string name="song_lyrics">מילים לשירים</string>
     <string name="video_instruction_text">Recording a video is a way to pass on the bravery and courage that holocaust survivors showed during World War II. The video is built of three parts, each one about 30 seconds long. In each section you will be asked to answer the following questions: 1. Tell us about a struggle you had during the holocaust. 2. What helped you overcome that struggle? 3. What do you want the future generations to remember? After recording each segment you have an option to view the recording and create a new one if you aren’t satisfied with what you filmed. Once you record all three pieces, they will be merged into one video that will be uploaded to the BraveTogether YouTube channel. In addition, they’ll be an option for you to share the video with your friends and family on FaceBook.</string>
-    <string name="instruction_next">Next</string>
+    <string name="instruction_next">המשך</string>
+    <string name="march_locations_button">מיקום המצעד</string>
+    <string name="hatikva_label">Hatikva</string>
+    <string name="one_human_tapestry_label">רקמה אנושית אחת</string>
+    <string name="next_song_button">לשיר הבא</string>
+    <string name="previous_song_button">לשיר הקודם</string>
 </resources>

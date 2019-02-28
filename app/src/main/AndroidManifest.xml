@@ -9,14 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Manage_march"
+        <activity
+            android:name=".LyricsActivity"
+            android:label="Song Lyrics"
+            android:parentActivityName=".Manage_march">
+
+        </activity>
+        <activity
+            android:name=".Manage_march"
             android:label="Manage March"
-            android:parentActivityName=".MainActivity">
-        </activity>
-        <activity android:name=".RecordsActivity"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".RecordsActivity"
             android:label="Record activity"
-            android:parentActivityName=".MainActivity">
-        </activity>
+            android:parentActivityName=".MainActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,8 +30,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".recordActivityInstructions"
-            android:parentActivityName=".RecordsActivity"/>
+
+
+        <activity
+            android:name=".recordActivityInstructions"
+            android:parentActivityName=".RecordsActivity" />
     </application>
 
 </manifest>
