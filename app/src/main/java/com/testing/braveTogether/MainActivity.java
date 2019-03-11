@@ -4,36 +4,27 @@ import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-
-
 
 public class MainActivity extends AppCompatActivity {
 
+    private String BRAVE_TOGETHER_WEBSITE = "http://www.brave-together.com/";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.d("bla", "MyClass");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
 
     /**
-     * Opens an about page or a link to the website
-     * todo: catch excepetion in main class
+     * Opens the homepage in a separate application
      *
      * @param view
      */
-    public void openAboutPageModule(View view) throws Exception {
-        String url = "http://www.brave-together.com/";
-        Uri homepage = Uri.parse(url);
+    public void openAboutPageModule(View view) {
+        Uri homepage = Uri.parse(BRAVE_TOGETHER_WEBSITE);
         Intent intent = new Intent(Intent.ACTION_VIEW, homepage);
         startActivity(intent);
-//        if (intent.resolveActivity(getPackageManager()) != null) {
-//            startActivity(intent);
-//        } else {
-//            throw new Exception("Unable to open link");
-//        }
     }
 
     /**
@@ -57,4 +48,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void openDonatePage(View view) {
+    }
+
+    public void openSignUpPage(View view) {
+    }
 }

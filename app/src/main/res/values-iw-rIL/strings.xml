@@ -15,4 +15,17 @@
     <string name="one_human_tapestry_label">רקמה אנושית אחת</string>
     <string name="next_song_button">לשיר הבא</string>
     <string name="previous_song_button">לשיר הקודם</string>
+    <string name="instruction_lyrics">לחצו על המיקום הרצוי בשביל לראות את השירים שינגנו במצעד הגבורה במיקום מסויים</string>
+    <string name="JM_lyrics">שירון למצעד בירושלים</string>
+    <string name="eilat_lyrics">שירון למצעד באילת</string>
+    <string name="yad_mordichai_lyrics">שירון למצעד ביד מורדכי</string>
+    <string name="kiryat_mutzkin_lyrics">שירון למצעד בקרית מוצקין</string>
+    <string name="lochami_hagetaot_lyrics">שירון למצעד בלוחמי הגטאות</string>
+    <string name="Tel_Aviv_lyrics">שירון למצעד בתל אביב</string>
+    <string name="sign_up">הרשמה למצעד</string>
+    <string name="ride_to_march">קבוצת טרמפים למצעד</string>
+    <string name="location_instructions">מצעדי הגבורה מתקיימים ברחבי הארץ. לחצו כאן ומצאו את המצעד הקרוב ביותר אליכם.</string>
+    <string name="signup_instruction">מתכננים להצטרף למצעד? הרשמו עכשיו!</string>
+    <string name="find_ride_instructions">מתכננים להגיע למצעד אך לא יודעים איך? הצטרפו
+        לקבוצת הטרמפים והציעו או מצאו טרמפ</string>
 </resources>

@@ -1,29 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp"
     tools:context=".Manage_march">
 
-    <Button
-        android:id="@+id/singing_cord_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/singing_cord" />
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="wrap_content"
+        android:layout_height="122dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/logo_mizad_hagvura" />
 
-    <Button
-        android:id="@+id/lyrics_button"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/song_lyrics"
-        android:onClick="openLyricsActivity"
-       />
+        android:layout_height="match_parent"
+        android:layout_below="@id/logoImage">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/march_locations_button"
-        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="18dp">
 
-</LinearLayout>
+            <TextView
+                android:id="@+id/singing_cord_instruction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="2"
+                android:text="Arrived at the march? \nClick here to join the live YouTube channel we use to coordinate the singing, so everyone will be singing the songs in union."
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/singing_cord_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+
+                android:text="@string/singing_cord" />
+
+            <TextView
+                android:id="@+id/lyrics_instruction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="2"
+                android:text="Click here to view the lyrics of the songs we will sing in the march."
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/lyrics_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:onClick="openLyricsActivity"
+                android:text="@string/song_lyrics" />
+
+            <TextView
+                android:id="@+id/location_instruction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="2"
+                android:text="@string/location_instructions"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/locations_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="@string/march_locations_button" />
+
+
+            <TextView
+                android:id="@+id/signup_instruction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="2"
+                android:text="@string/signup_instruction"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/signup_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="@string/sign_up" />
+
+
+            <TextView
+                android:id="@+id/find_ride_instructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="2"
+                android:text="@string/find_ride_instructions"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/find_ride_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="@string/ride_to_march" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,43 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
     tools:context="com.testing.braveTogether.LyricsActivity">
 
+    <!-- To add an additional location, copy and paste the button template at the end of this
+    file, changing only the id and text fields -->
 
     <TextView
-        android:id="@+id/lyrics_title"
-        android:layout_width="wrap_content"
+        android:id="@+id/instruction_for_lyrics"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:text="@string/song_lyrics" />
+        android:layout_weight="1"
+        android:gravity="center|top|fill_vertical"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/instruction_lyrics"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/HatikvaLyrics"
+        android:id="@+id/jerusalem_song_lyrics"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/lyrics_title"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:text="@string/hatikva_label" />
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/JM_lyrics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/OneHumanTapestryLyrics"
+        android:id="@+id/eilat_song_lyrics"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/HatikvaLyrics"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:text="@string/one_human_tapestry_label"/>
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/eilat_lyrics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/lyricsContainer"
+    <Button
+        android:id="@+id/yad_mordichai_song_lyrics"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/yad_mordichai_lyrics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    </android.support.v4.view.ViewPager>
+    <Button
+        android:id="@+id/kiryat_mutzkin_song_lyrics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/kiryat_mutzkin_lyrics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/lohamei_hagetaot_song_lyrics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/lochami_hagetaot_lyrics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tel_aviv_song_lyrics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/Tel_Aviv_lyrics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--<Button-->
+        <!--android:id="@+id/newLocation_song_lyrics"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="@string/newLocation_lyrics" (type the text and then by clicking
+        "alt+Enter" add it as a string resource-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+</LinearLayout>
