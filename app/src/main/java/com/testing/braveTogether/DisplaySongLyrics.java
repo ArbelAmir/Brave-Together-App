@@ -24,7 +24,11 @@ public class DisplaySongLyrics extends AppCompatActivity {
         String url = intent.getStringExtra("URL_MSG");
 
         lyricsWebView = findViewById(R.id.lyrics_web_view);
-        lyricsWebView.loadUrl(url); //todo: This isn't working! The URL is coming back as NULL. Why?!?
+
+        lyricsWebView.loadUrl("https://drive.google.com/file/d/1EFQ9DoepYT0Oei9GQefsjjbSKYHo6EaN" +
+                "/view?usp=sharing");
+//        lyricsWebView.loadUrl(url); //todo: This isn't working! The URL is coming back as NULL.
+        // Why?!?
 
     }
 }

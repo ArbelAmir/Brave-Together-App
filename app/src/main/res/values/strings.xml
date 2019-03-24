@@ -34,10 +34,13 @@
     <string name="kiryat_mutzkin_lyrics">Kiryat Mutzkin Song Lyrics</string>
     <string name="lochami_hagetaot_lyrics">Lochami HaGetaot Song Lyrics</string>
     <string name="Tel_Aviv_lyrics">Tel Aviv Song Lyrics</string>
-    <string name="hello_blank_fragment">hello_blank_fragment</string>
+    <!--<string name="hello_blank_fragment">hello_blank_fragment</string>-->
     <string name="sign_up">Sign up to a march</string>
     <string name="ride_to_march">Find a ride to the march</string>
     <string name="location_instructions">Brave Together Marches happen all around the country. Find the closest location to you.</string>
     <string name="signup_instruction">Planning on attending the march? Sign up now!</string>
     <string name="find_ride_instructions">Attending the march but not sure how to get there? Click here to join a group and find a ride. You can either be a driver (and pick up other participants along the way) or you can be a passenger and someone will pick you up</string>
+    <!--<string name="logo">logo</string>-->
+    <string name="record_video">Record Video</string>
+    <string name="donate">Donate</string>
 </resources>
