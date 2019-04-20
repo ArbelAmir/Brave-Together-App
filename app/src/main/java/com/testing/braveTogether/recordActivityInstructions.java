@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.testing.braveTogether.ytdl.RecordActivity;
+
 public class recordActivityInstructions extends AppCompatActivity {
 
     @Override
@@ -13,8 +15,8 @@ public class recordActivityInstructions extends AppCompatActivity {
         setContentView(R.layout.activity_record_activity_instructions);
     }
 
-    public void openRecordsActivity(View view) {
-        Intent intent = new Intent(this, RecordsActivity.class);
+    public void openRecordActivity(View view) {
+        Intent intent = new Intent(this, RecordActivity.class);
         startActivity(intent);
 
 

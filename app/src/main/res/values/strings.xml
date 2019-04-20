@@ -40,7 +40,53 @@
     <string name="location_instructions">Brave Together Marches happen all around the country. Find the closest location to you.</string>
     <string name="signup_instruction">Planning on attending the march? Sign up now!</string>
     <string name="find_ride_instructions">Attending the march but not sure how to get there? Click here to join a group and find a ride. You can either be a driver (and pick up other participants along the way) or you can be a passenger and someone will pick you up</string>
-    <!--<string name="logo">logo</string>-->
+    <string name="logo" translatable="false">logo</string>
     <string name="record_video">Record Video</string>
     <string name="donate">Donate</string>
+    <string name="hello_blank_fragment" translatable="false">hello_blank_fragment</string>
+
+
+    <string name="button_authorize" translatable="false">Authorize</string>
+    <string name="button_record" translatable="false">הקלט סרטון</string>
+    <string name="button_pick" translatable="false">בחר מהגלריה</string>
+    <string name="button_upload" translatable="false">UPLOAD TO YTDL</string>
+    <string name="button_submit" translatable="false">פרסם בערוץ מצעד הגבורה</string>
+    <string name="menu_settings" translatable="false">Settings</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="title_activity_display_message" translatable="false">My Message</string>
+    <string name="google_play_not_available" translatable="false">Google Play Services not available</string>
+    <string name="youtube_upload_started" translatable="false">YouTube Direct Lite upload started</string>
+    <string name="connection_to_google_play_failed" translatable="false">Connection to Play Services failed.</string>
+    <string name="youtube_upload" translatable="false">YouTube upload</string>
+    <string name="not_signed_in" translatable="false">לא מחובר</string>
+    <string name="dev_setup_explanation" translatable="false">If you\'re seeing this screen, congratulations! You\'ve set up the dependencies for YouTube Direct Lite correctly. You just need to set up the following for the app to work correctly:</string>
+    <string name="error" translatable="false">Error</string>
+    <string name="error_format" translatable="false">[Error] %s</string>
+    <string name="refresh" translatable="false">רענן</string>
+    <string name="accounts">חשבונות</string>
+    <string name="initiation_started" translatable="false">Initiation Started</string>
+    <string name="initiation_completed" translatable="false">Initiation Completed</string>
+    <string name="upload_in_progress" translatable="false">Direct Lite upload in progress</string>
+    <string name="yt_upload_completed" translatable="false">YouTube Upload Completed</string>
+    <string name="upload_completed" translatable="false">Upload completed</string>
+    <string name="upload_not_started" translatable="false">Upload Not Started!</string>
+    <string name="yt_upload_failed" translatable="false">YouTube Upload Failed</string>
+    <string name="reauth_required" translatable="false">Re-login required</string>
+    <string name="please_try_again" translatable="false">Please try again</string>
+    <string name="cant_access_play" translatable="false">Can\'t access to Google Play services</string>
+    <string name="title_activity_play" translatable="false">Click below to submit</string>
+    <string name="action_settings">Settings</string>
+    <string name="send" translatable="false">Click send</string>
+    <string name="title_activity_review" translatable="false">Click below to upload</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="pick_one_of_your_videos_to_submit" translatable="false">בחר סרטון מערוץ היוטיוב שלך</string>
+    <string name="no_videos_to_show_here_" translatable="false">אין סרטונים בחשבון היוטיוב.</string>
+    <string name="avatar" translatable="false">avatar</string>
+    <string name="pick_or_record_a_video_to_upload" translatable="false">בחר סרטון מהגלריה או הקלט אחד חדש</string>
+    <string name="see_the_newly_uploaded_video" translatable="false">See the newly uploaded video</string>
+    <string name="watch_your_video" translatable="false">צפה בסרטון שלך</string>
+    <string name="video_submitted_to_ytdl" translatable="false">הסרטון פורסם בהצלחה</string>
+    <string name="playing_uploaded_video" translatable="false">Playing uploaded video</string>
+    <string name="playing_the_video_in_upload_progress" translatable="false">Playing the video in upload progress</string>
+
 </resources>

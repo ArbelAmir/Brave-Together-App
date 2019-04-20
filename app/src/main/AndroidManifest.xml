@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.testing.braveTogether">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 
 
     <application
@@ -11,20 +14,28 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".DisplaySongLyrics"></activity>
         <activity
             android:name=".LyricsActivity"
             android:label="Song Lyrics"
             android:parentActivityName=".Manage_march"></activity>
+
         <activity
             android:name=".Manage_march"
             android:label="Manage March"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".RecordsActivity"
-            android:label="Record activity"
-            android:parentActivityName=".MainActivity" />
+            android:name=".ytdl.RecordActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+        </activity>
+
+        <service
+            android:name="com.testing.braveTogether.ytdl.UploadService"
+            android:exported="true" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,7 +45,18 @@
         </activity>
         <activity
             android:name=".recordActivityInstructions"
-            android:parentActivityName=".RecordsActivity" />
+            android:parentActivityName=".ytdl.RecordActivity" />
+
+        <activity
+            android:name="com.testing.braveTogether.ytdl.PlayActivity"
+            android:label="@string/title_activity_play"
+            android:parentActivityName="com.testing.braveTogether.ytdl.PlayActivity"></activity>
+        <activity
+            android:name="com.testing.braveTogether.ytdl.ReviewActivity"
+            android:label="@string/title_activity_review"
+            android:parentActivityName="com.testing.braveTogether.ytdl.RecordActivity"></activity>
+
+
     </application>
 
 </manifest>
