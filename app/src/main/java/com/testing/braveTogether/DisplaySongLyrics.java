@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebView;
-
+//NOTE: Currently this code is not used. Instead, the lyrics are displayed by going to the website
 /**
  * Displays a full page webpage or opens up a webpage. Can be used to display PDF files that are
  * saved in Google Drive, using their access link.

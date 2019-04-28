@@ -32,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_weight="2"
-                android:text="Arrived at the march? \nClick here to join the live YouTube channel we use to coordinate the singing, so everyone will be singing the songs in union."
+                android:text="@string/singingCordInstruction"
                 android:textSize="18sp" />
 
             <Button
@@ -50,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_weight="2"
-                android:text="Click here to view the lyrics of the songs we will sing in the march."
+                android:text="@string/lyrics_instruction"
                 android:textSize="18sp" />
 
             <Button

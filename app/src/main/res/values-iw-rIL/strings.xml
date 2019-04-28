@@ -32,4 +32,5 @@
     <string name="donate">תרומות</string>
     <string name="accounts">חשבונות</string>
     <string name="action_settings">הגדרות</string>
+    <string name="lyrics_instruction">Click here to view the lyrics of the songs we will sing in the march.</string>
 </resources>

@@ -6,6 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+/**
+ * Main class of the application
+ */
 public class MainActivity extends AppCompatActivity {
 
     private String BRAVE_TOGETHER_WEBSITE = "http://www.brave-together.com/";

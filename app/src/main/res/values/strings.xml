@@ -88,5 +88,7 @@
     <string name="video_submitted_to_ytdl" translatable="false">הסרטון פורסם בהצלחה</string>
     <string name="playing_uploaded_video" translatable="false">Playing uploaded video</string>
     <string name="playing_the_video_in_upload_progress" translatable="false">Playing the video in upload progress</string>
+    <string name="lyrics_instruction">Click here to view the lyrics of the songs we will sing in the march.</string>
+    <string name="singingCordInstruction">Arrived at the march?  Click here to join the live YouTube channel we use to coordinate the singing, so everyone will be singing the songs in union.</string>
 
 </resources>

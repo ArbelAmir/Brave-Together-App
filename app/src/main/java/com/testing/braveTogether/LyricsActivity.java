@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+//NOTE: Currently this class is not used. Instead, the lyrics are displayed by going to the website
+
 /**
  * This activity displays options for the user to choose what Shiron (lyrics) to view, based on
  * location he selects.
